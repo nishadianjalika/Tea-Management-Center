@@ -1,0 +1,129 @@
+.no-margin{
+	margin: 0px;
+}
+.no-padding{
+	padding: 0px;
+}
+.site-footer{
+	background-color: #222;
+	color: #fff;
+	margin-top: 30px;
+	padding-top: 30px;
+
+}
+.bottom-footer{
+	border-top: 1px solid #b2b2b2
+	margin-top:10px;
+	padding-top: 10px;
+	color: #b2b2b2
+}
+.footer-nav{
+	text-align: right;
+	list-style: none;
+
+}
+.footer-nav li{
+	display: inline;
+	
+}
+.footer-nav li:not(:first-child):before{
+	content: '|';
+	padding: 0px 10px;
+}
+.footer-nav a{
+	color: #b2b2b2; 
+}
+.footer-nav a:hover{
+	color: #fff; 
+	text-decoration: none;
+}
+/*login feature in navbar*/
+body{
+    background:url("../images/bb.jpg");
+    padding:50px;
+}
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+.form-control{
+
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.form-group #textF{ 
+    width:504px;
+}
+.form-group #nameF{ 
+    width:250px;
+}
+
+.styleSelect select {
+  background: transparent;
+  width: 168px;
+  padding: 5px;
+  font-size: 16px;
+  line-height: 1;
+  border: 0;
+  border-radius: 0;
+  height: 34px;
+  -webkit-appearance: none;
+  color: #000;
+}
+
+.styleSelect {
+  width: 140px;
+  height: 34px;
+  overflow: hidden;
+  background:url("../images/downArrow.png") no-repeat right #fff;
+  border: 1px solid #D6D6C2;
+
+}
